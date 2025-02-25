@@ -1,2 +1,3 @@
-[webserver]
-172.16.231.26 ansible_user=lenovo
+[localhost]
+localhost ansible_python_interpreter=/usr/bin/python3
+localhost ansible_connection=ssh ansible_user=jenkins ansible_ssh_private_key_file=~/.ssh/id_rsa
